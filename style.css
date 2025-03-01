@@ -481,6 +481,10 @@
         height: 1.5rem;
         
     }
+
+    #banner_slider{
+        height: 100vh;
+    }
     
     /* features section */
 
