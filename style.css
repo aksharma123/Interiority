@@ -445,7 +445,11 @@
         font-weight: 500;
         line-height: 2.5rem;
         width: 100%;
-        padding: 6rem 0 2.5rem 0;
+        padding: 16rem 0 2.5rem 0;
+    }
+
+    .slide_contant{
+        height: 100vh;
     }
 
     .button_wrap a{
@@ -573,6 +577,8 @@
         width: 100%;
         padding: 6rem 0 2.5rem 0;
     }
+
+    
 
     
 
