@@ -668,18 +668,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in;
+    scale: 0;
+    transition: scale 0.3s ease-in;
 }
 
 .our_g:hover .overlay {
-    opacity: 1;
+    scale: 1;
 }
 
 .overlay i {
     font-size: 30px;
     color: white;
-    
     padding: 10px;
     border-radius: 50%;
 }
@@ -907,6 +906,28 @@
         font-size: 1rem;
        
     }
+
+    /* our gallery */
+
+.our_gallary_section{
+    background-color: #F5F1F2;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+}
+
+.our_gallary{
+    width: 133px;
+    height: 89px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.overlay i {
+    font-size: 15px;
+    
+}
+
 }
 
 /* for tab view */
@@ -1079,10 +1100,11 @@
     }
     
     .our_cards{
+        width: 50%;
         padding: 22px 10px;
     }
 
-    .our_img{
+    .our_img img{
         height: 437px;
     }
 
@@ -1092,6 +1114,21 @@
         font-size: 1.2rem;
        
     }
+
+        /* our gallery */
+
+.our_gallary_section{
+    padding: 5rem 0;
+}
+
+.our_gallary{
+    width: 333px;
+    height: 222px;
+}
+
+.overlay i {
+    font-size: 25px;  
+}
 
 }
 
@@ -1143,4 +1180,19 @@
         margin: auto;
         padding: 1rem 0 2.5rem 0;
     }
+
+    /* our gallery */
+
+.our_gallary_section{
+    padding: 5rem 0;
+}
+
+.our_gallary{
+    width: 294px;
+    height: 196px;
+}
+
+.overlay i {
+    font-size: 25px;  
+}
 }
