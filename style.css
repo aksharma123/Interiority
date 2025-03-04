@@ -750,6 +750,219 @@
     font-size: 2rem;
 }
 
+/* slider section */
+
+
+
+/* our updates */
+
+.our_updates_sections{
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+}
+
+.our_caps{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.our_updates{
+    display: flex;
+    width: 100%;
+}
+
+.our_updates_cards{
+    width: 33%;
+    height:auto;
+    padding: 0 12px;
+}
+
+.our_upd{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px 10px 0 0 ;
+    
+}
+
+.our_upd img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.our_updates_cards:hover img{
+    transform: scale(1.15); 
+}
+
+.our_uphead{
+    padding: 2rem 2rem;
+    border: 2px solid #ddd;
+    border-top: none;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 5px 12px  #ddd;
+}
+
+.interior p{
+    
+    background-color: #ec1944;
+    color: white;
+    width:fit-content ;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.admin{
+    font: 15px;
+    color: #404040;
+    
+}
+
+.admin i{
+    color: #ec1944;
+    padding-right: 5px;
+}
+
+.admin span{
+    font: 16px;
+    color:#000000;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 30px;
+}
+
+.date i{
+    color: #ec1944;
+    padding-right: 5px;
+}
+
+.our_uphead p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 10px 0;
+
+}
+
+/* footer_section */
+
+.footer_section{
+    width: 100%;
+    height: auto;
+}
+
+.footer_banner{
+    background-color: #050003;
+    
+    padding: 5rem 0;
+}
+
+.footer_content p{
+    color: #ddd;
+    line-height: 2.2rem;
+    font-size: 0.85rem;
+}
+
+.footer_content h4{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.int h4{
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+}
+
+.int p{
+    color: #ddd;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 0.85rem;
+
+}
+
+.int i{
+    color:#ec1944;
+
+}
+
+.footer_content{
+    display: flex;
+    width: 100%;
+    column-gap: 5px;
+}
+
+.int_ser{
+    display: flex;
+    width: 50%;
+}
+
+.int{
+    width: 65%;
+    padding: 0 48px 0 12px;
+}
+
+.ser{
+    width: 35%;
+}
+
+.su_new{
+    display: flex;
+    width: 50%; 
+}
+
+.news{
+    width: 65%;
+}
+
+.sup{
+    width: 35%;
+}
+
+.last_footer p{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0 0rem 0;
+}
+
+.last_footer{
+    border-top:  solid rgb(221 221 221 / 17%)
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    padding: 3rem 0;
+    
+}
+
+.icons{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 7px;
+
+}
+
+.buuton input{
+    padding: 12px;
+}
 /* for mobile view */
 
 @media screen and (max-width: 741px) and (min-width: 250px){
@@ -1012,6 +1225,44 @@
 .c_text{
     padding-bottom: 4rem;
 }
+
+/* update section */
+
+.our_updates{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.our_updates_cards{
+    width: 100%;
+    height:auto;
+    padding: 12px 0px;
+    
+}
+
+.admin span{
+    
+    padding-right: 10px;
+}
+
+.date i{
+    color: #ec1944;
+    padding-right: 5px;
+}
+
+.our_uphead p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 10px 0;
+
+}
+
+.interior p{
+    font-size: 12px;
+    
+}
+
 }
 
 /* for tab view */
@@ -1241,6 +1492,42 @@
     font-size: 2.5rem;
 }
 
+/* update section */
+
+.our_updates{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.our_updates_cards{
+    width: 50%;
+    height:auto;
+    padding: 22px 12px;
+    
+}
+
+.admin span{
+    padding-right: 10px;
+}
+
+.date i{
+    color: #ec1944;
+    padding-right: 5px;
+}
+
+.our_uphead p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 10px 0;
+
+}
+
+.interior p{
+    font-size: 12px;
+    
+}
+
 }
 
 /* for small laptops */
@@ -1314,4 +1601,14 @@
 .Unique{
     height: 281px;
 }
+
+.our_uphead {
+    padding: 0 20px;
+
+}
+
+.interior p{
+    font-size: 0.8rem;
+}
+
 }
