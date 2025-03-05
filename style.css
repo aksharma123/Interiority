@@ -1153,7 +1153,7 @@ div.interior p {
     .slide_contant p{
         color: white;
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 2.5rem;
         width: 100%;
         padding: 16rem 0 2.5rem 0;
@@ -1165,8 +1165,12 @@ div.interior p {
 
     .button_wrap a{
     
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         font-weight: 600;
+    }
+
+    .button_wrap i{
+        padding: 7px;
     }
 
     #banner_slider .slick-arrow.prev{
@@ -1180,8 +1184,8 @@ div.interior p {
     }
 
     #banner_slider .owl-dots .owl-dot span{
-        width: 5px;
-        height: 5px;
+        width: 10px;
+        height: 10px;
         background-color:white;
         opacity: 1;
     }
@@ -1413,6 +1417,50 @@ div.interior p {
 .interior p{
     font-size: 12px;
     
+}
+
+/* testimonial section */
+
+.testimonial_main{
+    padding: 3rem 0 6rem 0;
+    
+}
+
+.testi_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.testi_text{
+    width: 100%;
+}
+
+.testi_text p{
+    left: 25%;
+    padding-bottom: 1.3rem;
+}
+
+.testi_text p::before{
+    left: -22%; 
+    top: 34%;
+}
+
+.testi_text h5{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    
+}
+
+.slide_info{
+    width: 100%;
+}
+
+.testimonial_section .slick-dots{
+    
+    display: flex;
+    position: absolute;
+    left: 5%;
+    bottom:-25%;
 }
 
 }
@@ -1680,6 +1728,55 @@ div.interior p {
     
 }
 
+/* testimonial section */
+
+.testimonial_main{
+    padding: 4rem 0 4rem 0;
+    
+}
+
+.testi_content{
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: column;
+}
+
+.testi_text{
+    width: 100%;
+}
+
+.testi_text p{
+    left: 9%;
+    padding-bottom: 1.3rem;
+}
+
+.testi_text p::before{
+    left: -9%; 
+    top: 34%;
+}
+
+.testi_text h5{
+    font-size: 1.8rem;
+}
+
+
+.testi_text a{
+    padding: 12px 30px;
+    font-size: 1rem;
+}
+
+.slide_info{
+    width: 100%;
+}
+
+.testimonial_section .slick-dots{
+    
+    display: flex;
+    position: absolute;
+    left: 5%;
+    bottom:-25%;
+}
+
 }
 
 /* for small laptops */
@@ -1761,6 +1858,30 @@ div.interior p {
 
     .interior p{
     font-size: 0.8rem;
+    }
+
+    /* testimonial section */
+
+    .testi_text{
+        width: 80%;
+        height: 100%;
+    }
+
+    .testi_text h5{
+        font-size: 1.9rem;
+        width: 80%;
+    }
+
+    .slide_info{
+        width:65%;
+    }
+
+    .testimonial_section .slick-dots{
+    
+        display: flex;
+        position: absolute;
+        left: 5%;
+        bottom:-35%;
     }
 
 }
