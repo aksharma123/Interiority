@@ -149,27 +149,27 @@
     display: flex;
     align-items: center;
     /* padding: 13rem 0 0 0; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0,  0.6)),url(assets/lotus-design-n-print-wRzBarqn3hs-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,  0.73)),url(assets/lotus-design-n-print-wRzBarqn3hs-unsplash.jpg);
 }
 
 #banner_slider .slide_two{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0,  0.6)),url(assets/r-architecture-wDDfbanbhl8-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,  0.73)),url(assets/r-architecture-wDDfbanbhl8-unsplash.jpg);
 }
 
 #banner_slider .slide_three{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0,  0.6)),url(assets/spacejoy-9M66C_w_ToM-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,  0.73)),url(assets/spacejoy-9M66C_w_ToM-unsplash.jpg);
 }
 
 #banner_slider .slide_four{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0,  0.6)),url(assets/spacejoy-KSfe2Z4REEM-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,  0.73)),url(assets/spacejoy-KSfe2Z4REEM-unsplash.jpg);
 }
 
 #banner_slider .slide_five{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0,  0.6)),url(assets/spacejoy-PyeXkOVmG1Y-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,  0.73)),url(assets/spacejoy-PyeXkOVmG1Y-unsplash.jpg);
 }
 
 #banner_slider .slide_six{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0,  0.6)),url(assets/zac-gudakov-ztWpwTEx728-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,  0.73)),url(assets/zac-gudakov-ztWpwTEx728-unsplash.jpg);
 }
 
 .slide_contant p{
