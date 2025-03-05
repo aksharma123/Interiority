@@ -1184,17 +1184,27 @@ div.interior p {
 
     .main nav{
         padding: 12px 0;
+        align-items: center;
     }
 
     .hamburger{
         display: flex;
         align-items: center;
-        font-size: 1.7rem;
+        justify-content: center;
+        font-size: 1.4rem;
         cursor: pointer;
+        background-color: #ec1944;
+        color: white;
+        width: auto;
+        height: 34px;
+        padding: 0.5rem;
+        margin-top: 4px;
+        border-radius: 5px;
     }
 
     .mode{
         font-size: 1.7rem;
+        padding: 0 17px;
     }
 
     /* owl-carousel */
