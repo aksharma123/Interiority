@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const banner = document.querySelector('.banner_whyus') 
     const banner2 = document.querySelector('.our_gallary_section')
     const features= document.querySelector('.features')
-    const why= document.querySelector('.why_text')
+    
 
     hamburger.addEventListener("click", function () {
         navMenu.classList.toggle("active"); // Show/hide menu
@@ -89,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
         banner.classList.toggle('dark')
         banner2.classList.toggle('dark')
         features.classList.toggle('dark')
-        why.classList.toggle('dark')
     });
 });
 
