@@ -828,7 +828,7 @@ nav{
     border: 2px solid #ddd;
     border-top: none;
     border-radius: 0px 0px 8px 8px;
-    box-shadow: 0px 5px 12px  #ddd;
+    /* box-shadow: 0px 5px 12px  #ddd; */
     height: auto;
 }
 
