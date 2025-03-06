@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const hamburger = document.getElementById("hamburger");
     const navMenu = document.getElementById("nav-menu");
     const cross= document.getElementById("cross");
+    const line= document.getElementById("line");
     const moon= document.getElementById("moon");
     const nav = document.getElementById('nav');
     const leftNav = document.querySelector('.leftnav');
@@ -70,6 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
     hamburger.addEventListener("click", function () {
         navMenu.classList.toggle("active"); // Show/hide menu
         cross.classList.toggle("active");
+        line.classList.toggle("active");
+        hamburger.classList.toggle('active')
     });
 
     // Close menu when clicking outside

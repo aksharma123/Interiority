@@ -88,17 +88,17 @@ nav.dark{
 /* mobile view */
 
 @media screen and (max-width: 741px) and (min-width: 250px){
+    .leftnav.dark{
+        color: black;
+    }
 
 }
 
 /* tab view */
 
 @media screen and (max-width: 1017px) and (min-width: 742px){
-
-}
-
-/* small laptop view */
-
-@media screen and (max-width: 1390px) and (min-width: 1018px){
+    .leftnav.dark{
+        color: black;
+    }
 
 }
