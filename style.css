@@ -66,6 +66,7 @@ nav{
 .leftnav{
     display: flex;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
 
@@ -362,6 +363,13 @@ nav{
 }
 .features_cards.sign_card svg{
     fill: white;
+}
+
+.features_cards:hover.sign_card .image{
+    background-color: white;
+}
+.features_cards:hover.sign_card svg{
+    fill: #ec1944;
 }
 
 .features_cards svg{
@@ -1579,31 +1587,35 @@ div.interior p {
 
 .int_ser{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 
 }
 
 .int{
-    width: 65%;
+    width: 100%;
    padding: 0 12px 0 0;
 }
 
 .ser{
-    width: 35%;
+    width: 100%;
 }
 
 .su_new{
     display: flex;
+    flex-wrap: wrap;
     width: 100%; 
+    padding: 2rem 0;
 }
 
 .news{
-    width: 65%;
+    width: 100%;
     padding-bottom: 1rem;
 }
 
 .sup{
-    width: 35%;
+    width: 100%;
+    padding-bottom: 2rem;
 }
 
 .last_footer p{
@@ -1678,12 +1690,26 @@ div.interior p {
     #cross{
         position: absolute;
         font-size: 2.5rem;
-        z-index: -10;
-        right: 0.5px;
+        opacity: 0;
+        color: #ec1944;
+        z-index: -2;
     }
 
     #cross.active{
         position: absolute;
+        opacity: 1;
+        z-index: 2;
+    }
+
+    #line.active{
+        z-index: -2;
+        opacity: 0;
+    }
+
+    #line{
+        font-size: 2.1rem;
+        opacity: 1;
+        color: #ec1944;
         z-index: 2;
     }
 
@@ -1715,10 +1741,8 @@ div.interior p {
     .hamburger{
         display: flex;
         align-items: center;
-        /* justify-content: center; */
         font-size: 1.4rem;
         cursor: pointer;
-        background-color: #ec1944;
         color: white;
         width: auto;
         height: 34px;
@@ -2115,4 +2139,50 @@ div.interior p {
         bottom:-35%;
     }
 
+}
+
+/* about page */
+
+.about_banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,  0.73)),url(assets/spacejoy-PyeXkOVmG1Y-unsplash.jpg);
+    width: 100vw;
+    height: auto;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.about_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 0 6rem 0;
+}
+
+.about_content h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+#home_toggle{
+    color: #ec1944;
+    font-weight: 500;
+    padding-right: 1rem;
+
+}
+
+.about_text{
+    color: white;
+
+}
+
+.about_text i{
+    color: white;
+    padding-right: 0.9rem;
+    
 }
