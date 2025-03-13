@@ -1,3 +1,5 @@
+/* about page */
+
 .main.ab_pg .owl-carousel{
     display: none;
 }
@@ -93,6 +95,10 @@
 }
 
 .main.ct_pg .contact_us .why_us{
+    display: block;
+}
+
+.main.ct_pg .contact_us .features_section{
     display: block;
 }
 
