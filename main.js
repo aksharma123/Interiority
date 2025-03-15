@@ -87,16 +87,11 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("click", function (event) {
         if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
             navMenu.classList.remove("active");
+            cross.classList.remove("active");
+            line.classList.remove("active");   
         }
     });
     
-    //cross icon toggle.
-    document.addEventListener("click", function (event) {
-        if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
-            cross.classList.remove("active");
-            line.classList.toggle("active");
-        }
-    });
 
     //mode change
     moon.addEventListener("click", function () {
