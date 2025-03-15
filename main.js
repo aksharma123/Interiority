@@ -89,6 +89,14 @@ document.addEventListener("DOMContentLoaded", function () {
             navMenu.classList.remove("active");
         }
     });
+    
+    //cross icon toggle.
+    document.addEventListener("click", function (event) {
+        if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
+            cross.classList.remove("active");
+            line.classList.toggle("active");
+        }
+    });
 
     //mode change
     moon.addEventListener("click", function () {
@@ -134,6 +142,8 @@ document.addEventListener("DOMContentLoaded", function () {
             blogMenu.classList.remove("blog_pg");
         }
     });
+
+     // page dropdown  visible
 
     pageBtn.addEventListener("click" ,function(){
         pageMenu.classList.toggle('page_pg');
